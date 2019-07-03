@@ -8,9 +8,9 @@ Programming for Data Science
 Machine Learning and Python Programming
 
 ### Files used
-bikeshrea.py
 documentation.docx
+bikeshrea.py
 
 ### Credits
-8
+8.5
 
