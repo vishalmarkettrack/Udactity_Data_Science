@@ -43,7 +43,7 @@ def get_filters():
 
     while True:
       day = input("\nAre you looking for a particular day? If so, kindly enter the day as follows: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' if you do not have any preference.\n")
-      if day not in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'all'):
+      if day not in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'all'):
         print("Sorry, I didn't catch that. Try again.")
         continue
       else:
@@ -79,7 +79,7 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'all':
    	 	# use the index of the months list to get the corresponding int
-        months = ['January', 'February', 'March', 'April', 'May', 'June']
+        months = ['January', 'February', 'March', 'April']
         month = months.index(month) + 1
 
     	# filter by month to create the new dataframe
